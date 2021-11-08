@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		C9DEE0A12739AF7E000751EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0A02739AF7E000751EE /* AppDelegate.swift */; };
 		C9DEE0A32739AF7E000751EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0A22739AF7E000751EE /* SceneDelegate.swift */; };
-		C9DEE0A52739AF7E000751EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0A42739AF7E000751EE /* ViewController.swift */; };
-		C9DEE0A82739AF7E000751EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DEE0A62739AF7E000751EE /* Main.storyboard */; };
 		C9DEE0AA2739AF81000751EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DEE0A92739AF81000751EE /* Assets.xcassets */; };
-		C9DEE0AD2739AF81000751EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DEE0AB2739AF81000751EE /* LaunchScreen.storyboard */; };
 		C9DEE0B82739AF81000751EE /* ParkmobileItunesCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0B72739AF81000751EE /* ParkmobileItunesCodeTestTests.swift */; };
 		C9DEE0C32739AF81000751EE /* ParkmobileItunesCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0C22739AF81000751EE /* ParkmobileItunesCodeTestUITests.swift */; };
+		C9DEE0EC2739AF99000751EE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0D22739AF99000751EE /* DetailViewController.swift */; };
+		C9DEE0ED2739AF99000751EE /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0D32739AF99000751EE /* ResultsViewController.swift */; };
+		C9DEE0F02739AF99000751EE /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0D82739AF99000751EE /* UIImageViewExtension.swift */; };
+		C9DEE0F32739AF99000751EE /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0DD2739AF99000751EE /* ResultsTableViewCell.swift */; };
+		C9DEE0F82739AF99000751EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DEE0E52739AF99000751EE /* LaunchScreen.storyboard */; };
+		C9DEE0F92739AF99000751EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DEE0E72739AF99000751EE /* Main.storyboard */; };
+		C9DEE0FF2739B214000751EE /* ArtistResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE0FE2739B214000751EE /* ArtistResultModel.swift */; };
+		C9DEE1022739B267000751EE /* ArtistResultNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE1012739B267000751EE /* ArtistResultNetworking.swift */; };
+		C9DEE1072739B2D9000751EE /* ArtistResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DEE1062739B2D9000751EE /* ArtistResultViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +44,7 @@
 		C9DEE09D2739AF7E000751EE /* ParkmobileItunesCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkmobileItunesCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DEE0A02739AF7E000751EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9DEE0A22739AF7E000751EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9DEE0A42739AF7E000751EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9DEE0A72739AF7E000751EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9DEE0A92739AF81000751EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C9DEE0AC2739AF81000751EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9DEE0AE2739AF81000751EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DEE0B32739AF81000751EE /* ParkmobileItunesCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkmobileItunesCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DEE0B72739AF81000751EE /* ParkmobileItunesCodeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkmobileItunesCodeTestTests.swift; sourceTree = "<group>"; };
@@ -49,6 +52,15 @@
 		C9DEE0BE2739AF81000751EE /* ParkmobileItunesCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkmobileItunesCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DEE0C22739AF81000751EE /* ParkmobileItunesCodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkmobileItunesCodeTestUITests.swift; sourceTree = "<group>"; };
 		C9DEE0C42739AF81000751EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DEE0D22739AF99000751EE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C9DEE0D32739AF99000751EE /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		C9DEE0D82739AF99000751EE /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		C9DEE0DD2739AF99000751EE /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		C9DEE0E62739AF99000751EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9DEE0E82739AF99000751EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9DEE0FE2739B214000751EE /* ArtistResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResultModel.swift; sourceTree = "<group>"; };
+		C9DEE1012739B267000751EE /* ArtistResultNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResultNetworking.swift; sourceTree = "<group>"; };
+		C9DEE1062739B2D9000751EE /* ArtistResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResultViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,16 @@
 		C9DEE09F2739AF7E000751EE /* ParkmobileItunesCodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				C9DEE0FD2739B1FD000751EE /* DataModel */,
+				C9DEE1002739B234000751EE /* Networking */,
+				C9DEE1052739B2C6000751EE /* ViewModel */,
+				C9DEE0D12739AF99000751EE /* ViewControllers */,
+				C9DEE0DC2739AF99000751EE /* Cells */,
+				C9DEE0D72739AF99000751EE /* Extensions */,
+				C9DEE0E42739AF99000751EE /* Storyboards */,
 				C9DEE0A02739AF7E000751EE /* AppDelegate.swift */,
 				C9DEE0A22739AF7E000751EE /* SceneDelegate.swift */,
-				C9DEE0A42739AF7E000751EE /* ViewController.swift */,
-				C9DEE0A62739AF7E000751EE /* Main.storyboard */,
 				C9DEE0A92739AF81000751EE /* Assets.xcassets */,
-				C9DEE0AB2739AF81000751EE /* LaunchScreen.storyboard */,
 				C9DEE0AE2739AF81000751EE /* Info.plist */,
 			);
 			path = ParkmobileItunesCodeTest;
@@ -126,6 +142,68 @@
 				C9DEE0C42739AF81000751EE /* Info.plist */,
 			);
 			path = ParkmobileItunesCodeTestUITests;
+			sourceTree = "<group>";
+		};
+		C9DEE0D12739AF99000751EE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9DEE0D22739AF99000751EE /* DetailViewController.swift */,
+				C9DEE0D32739AF99000751EE /* ResultsViewController.swift */,
+			);
+			name = ViewControllers;
+			path = ../../itunes/itunes/ViewControllers;
+			sourceTree = "<group>";
+		};
+		C9DEE0D72739AF99000751EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9DEE0D82739AF99000751EE /* UIImageViewExtension.swift */,
+			);
+			name = Extensions;
+			path = ../../itunes/itunes/Extensions;
+			sourceTree = "<group>";
+		};
+		C9DEE0DC2739AF99000751EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C9DEE0DD2739AF99000751EE /* ResultsTableViewCell.swift */,
+			);
+			name = Cells;
+			path = ../../itunes/itunes/Cells;
+			sourceTree = "<group>";
+		};
+		C9DEE0E42739AF99000751EE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C9DEE0E52739AF99000751EE /* LaunchScreen.storyboard */,
+				C9DEE0E72739AF99000751EE /* Main.storyboard */,
+			);
+			name = Storyboards;
+			path = ../../itunes/itunes/Storyboards;
+			sourceTree = "<group>";
+		};
+		C9DEE0FD2739B1FD000751EE /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9DEE0FE2739B214000751EE /* ArtistResultModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		C9DEE1002739B234000751EE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C9DEE1012739B267000751EE /* ArtistResultNetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C9DEE1052739B2C6000751EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9DEE1062739B2D9000751EE /* ArtistResultViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DEE0AD2739AF81000751EE /* LaunchScreen.storyboard in Resources */,
 				C9DEE0AA2739AF81000751EE /* Assets.xcassets in Resources */,
-				C9DEE0A82739AF7E000751EE /* Main.storyboard in Resources */,
+				C9DEE0F92739AF99000751EE /* Main.storyboard in Resources */,
+				C9DEE0F82739AF99000751EE /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DEE0A52739AF7E000751EE /* ViewController.swift in Sources */,
+				C9DEE1022739B267000751EE /* ArtistResultNetworking.swift in Sources */,
 				C9DEE0A12739AF7E000751EE /* AppDelegate.swift in Sources */,
+				C9DEE0EC2739AF99000751EE /* DetailViewController.swift in Sources */,
+				C9DEE0F32739AF99000751EE /* ResultsTableViewCell.swift in Sources */,
+				C9DEE0FF2739B214000751EE /* ArtistResultModel.swift in Sources */,
 				C9DEE0A32739AF7E000751EE /* SceneDelegate.swift in Sources */,
+				C9DEE0F02739AF99000751EE /* UIImageViewExtension.swift in Sources */,
+				C9DEE0ED2739AF99000751EE /* ResultsViewController.swift in Sources */,
+				C9DEE1072739B2D9000751EE /* ArtistResultViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +380,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9DEE0A62739AF7E000751EE /* Main.storyboard */ = {
+		C9DEE0E52739AF99000751EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C9DEE0A72739AF7E000751EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C9DEE0AB2739AF81000751EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9DEE0AC2739AF81000751EE /* Base */,
+				C9DEE0E62739AF99000751EE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9DEE0E72739AF99000751EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9DEE0E82739AF99000751EE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
