@@ -61,6 +61,7 @@
 		C9DEE0FE2739B214000751EE /* ArtistResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResultModel.swift; sourceTree = "<group>"; };
 		C9DEE1012739B267000751EE /* ArtistResultNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResultNetworking.swift; sourceTree = "<group>"; };
 		C9DEE1062739B2D9000751EE /* ArtistResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResultViewModel.swift; sourceTree = "<group>"; };
+		C9DEE1082739B63C000751EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 		C9DEE0942739AF7E000751EE = {
 			isa = PBXGroup;
 			children = (
+				C9DEE1082739B63C000751EE /* README.md */,
 				C9DEE09F2739AF7E000751EE /* ParkmobileItunesCodeTest */,
 				C9DEE0B62739AF81000751EE /* ParkmobileItunesCodeTestTests */,
 				C9DEE0C12739AF81000751EE /* ParkmobileItunesCodeTestUITests */,
